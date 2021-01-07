@@ -1,9 +1,9 @@
 from PIL import Image
-import image_model
+from gui_view import GUI
 
 def main():
-    
     print('running')
+    app = GUI()
 
 if __name__ == '__main__':
     main()
